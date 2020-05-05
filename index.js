@@ -18,8 +18,8 @@ const courseSchema = new mongoose.Schema({
   async function createCourse(){
 
     const course=new Course({
-        name: "Science",
-        author: "Gokul", 
+        name: "Maths",
+        author: "Geetha", 
         isPublished: true,
         price: 100
     
